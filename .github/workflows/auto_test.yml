@@ -39,6 +39,5 @@ jobs:
 
     - name: Run tests
       # Run pytest to execute tests and generate test results and coverage report
-      run: coverage run
-           coverage html
+      run: pytest -v
         
