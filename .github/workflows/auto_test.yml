@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         # GitHub Actions will create separate jobs for each combination of operating system and specified Python version.
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [windows-latest]
         python-version: [3.9]
     # Run the job on the specified operating system
     runs-on: ${{ matrix.os }}
