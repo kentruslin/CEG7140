@@ -11,7 +11,7 @@ readme = "README.md"
 packages = [{include = "tempus_fugit_minecraft"}]
 
 [tool.poetry.scripts]
-minecraft = "tempus_fugit_minecraft.main:main"
+minecraft = ""
 
 [tool.poetry.dependencies]
 python = "^3.7"
