@@ -1,6 +1,6 @@
 Minecraftclone - README
 
-<img src="..\screenshot.png"></br>
+<img src="Screenshot.png"></br>
 
 Installation:
 
