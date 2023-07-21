@@ -12,13 +12,7 @@ To run the minecraft game locally, follow these steps:
 git clone -b minecraftclone --single-branch https://github.com/WSUCEG-7140/minecraftclone.git
 ```
 
-2. Navigate to the project directory:
-
-```shell
-cd  minecraftclone
-```
-
-3. Type the following command
+2. Navigate in the project directory and type the following command
 
 ```console
 python3 main.py
