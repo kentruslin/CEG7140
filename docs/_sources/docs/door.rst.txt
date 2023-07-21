@@ -1,0 +1,7 @@
+door module
+===========
+
+.. automodule:: door
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+curry module
+============
+
+.. automodule:: curry
+   :members:
+   :undoc-members:
+   :show-inheritance:
