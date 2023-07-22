@@ -20,16 +20,16 @@ python3 main.py
 
 User manual for playing the game:
 
-| W     : Move Forward
-| S     : Move Backward
-| A     : Move Left
-| D     : Move Right
-| SPACE : Jump
-| E     : Inventory
-| F     : Toggle between flying/not Flying.
-| Mouse left-click: remove block
-| Mouse right-click: create block
-| ESC: release mouse, then close window
+W     : Move Forward </br>
+S     : Move Backward </br>
+A     : Move Left </br>
+D     : Move Right </br>
+SPACE : Jump </br>
+E     : Inventory </br>
+F     : Toggle between flying/not Flying  </br>.
+Mouse left-click: remove block </br>
+Mouse right-click: create block </br>
+ESC: release mouse, then close window </br>
 
 Technologies Used
 
