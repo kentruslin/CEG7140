@@ -26,7 +26,7 @@ A     : Move Left </br>
 D     : Move Right </br>
 SPACE : Jump </br>
 E     : Inventory </br>
-F     : Toggle between flying/not Flying  </br>.
+F     : Toggle between flying/not Flying  </br>
 Mouse left-click: remove block </br>
 Mouse right-click: create block </br>
 ESC: release mouse, then close window </br>
