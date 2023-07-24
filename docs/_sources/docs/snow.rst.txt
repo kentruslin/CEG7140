@@ -1,7 +1,0 @@
-snow module
-===========
-
-.. automodule:: snow
-   :members:
-   :undoc-members:
-   :show-inheritance:

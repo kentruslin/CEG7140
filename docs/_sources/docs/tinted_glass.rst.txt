@@ -1,7 +1,0 @@
-tinted\_glass module
-====================
-
-.. automodule:: tinted_glass
-   :members:
-   :undoc-members:
-   :show-inheritance:

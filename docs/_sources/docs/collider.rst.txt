@@ -1,7 +1,0 @@
-collider module
-===============
-
-.. automodule:: collider
-   :members:
-   :undoc-members:
-   :show-inheritance:

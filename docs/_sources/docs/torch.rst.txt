@@ -1,7 +1,0 @@
-torch module
-============
-
-.. automodule:: torch
-   :members:
-   :undoc-members:
-   :show-inheritance:

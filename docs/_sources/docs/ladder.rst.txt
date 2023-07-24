@@ -1,7 +1,0 @@
-ladder module
-=============
-
-.. automodule:: ladder
-   :members:
-   :undoc-members:
-   :show-inheritance:
