@@ -1,0 +1,7 @@
+plant module
+============
+
+.. automodule:: plant
+   :members:
+   :undoc-members:
+   :show-inheritance:

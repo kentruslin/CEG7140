@@ -1,0 +1,42 @@
+.. minecraftclone documentation master file, created by
+   sphinx-quickstart on Wed Jul 12 17:15:22 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Minecraftclone's software design documentation by kruslin2
+==========================================
+| These following modules together with all other modules which are tested/documented by other Team members are used/imported by other bigger modules to form the minecraft program code which will generate terrain and skies with features such as moving clouds.
+| For a reference, the actuall minecraft program code developed using python3 by team member kruslin2, which uses these code modules, can be downloaded from this repository on branch minecraftclone.
+
+
+
+.. toctree::
+   :maxdepth: 14
+   :caption: Contents:
+
+   docs/collider
+   docs/matrix
+   docs/torch
+   docs/plant
+   docs/ladder
+   docs/lever
+   docs/leaves
+   docs/tinted_glass
+   docs/door
+   docs/fire
+   docs/snow
+   docs/curry
+   docs/number
+   docs/util
+   
+   
+
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
