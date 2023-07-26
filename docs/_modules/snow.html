@@ -93,24 +93,24 @@
 <span class="c1"># import module to write testcases for the code</span>
 <span class="kn">import</span> <span class="nn">unittest</span>
 
-<span class="c1"># variable initialization</span>
+<span class="c1"># constant variable initialization</span>
 
-<span class="c1"># It is transparent</span>
+<span class="c1"># It is transparent, True or False</span>
 <span class="n">transparent</span> <span class="o">=</span> <span class="kc">True</span>
 
-<span class="c1"># Degree of tranparency</span>
+<span class="c1"># Degree of transparency, 0 = not transparent, 1 = a bit transparent and 2 = very transparent</span>
 <span class="n">transparency</span> <span class="o">=</span> <span class="mi">2</span>
 
-<span class="c1"># It is not cube</span>
+<span class="c1"># It is cube, True or False</span>
 <span class="n">is_cube</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># It is not glass</span>
+<span class="c1"># It is made of glass, True or False</span>
 <span class="n">glass</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># It is not translucent</span>
+<span class="c1"># It is translucent, True or False</span>
 <span class="n">translucent</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># Colliders values initialization</span>
+<span class="c1"># Colliders values initialization, a list of float numbers</span>
 <span class="n">colliders</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span>
 		<span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5000</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">),</span>
@@ -123,12 +123,12 @@
 	<span class="p">[</span> <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>   <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">],</span> <span class="c1"># top</span>
 	<span class="p">[</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>   <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>   <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.4375</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">],</span> <span class="c1"># bottom</span>
 <span class="p">]</span>
-<span class="c1"># relative textures coordinates for each pixel</span>
+<span class="c1"># relative textures coordinates initializations for each pixel, a list of float numbers</span>
 <span class="n">tex_coords</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
 	<span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span>  <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
 <span class="p">]</span>
-<span class="c1"># shading values for snow</span>
+<span class="c1"># shading values initialization for snow, list of float numbers</span>
 <span class="n">shading_values</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">],</span>
 	<span class="p">[</span><span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">],</span>

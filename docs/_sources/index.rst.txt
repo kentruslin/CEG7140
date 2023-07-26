@@ -5,7 +5,7 @@
 
 Minecraftclone's software design documentation by kruslin2
 ==========================================
-| These following modules together with all other modules which are tested/documented by other Team members are used/imported by other bigger modules to form the minecraft program code which will generate terrain and skies with features such as moving clouds.
+| These following modules together with all other modules which are tested/documented by other Team members are grouped in a folder as a packet module and used/imported by other bigger modules to form the minecraft program code which will generate terrain with water and skies moving clouds and other features based on users issues.
 | For a reference, the actuall minecraft program code developed using python3 by team member kruslin2, which uses these code modules, can be downloaded from this repository on branch minecraftclone.
 
 
