@@ -94,25 +94,25 @@
 
 <span class="c1"># constant variables initializations</span>
 
-<span class="c1"># Door is not transparent</span>
+<span class="c1"># Door is transparent, True or False</span>
 <span class="n">transparent</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># Degree of tranparency</span>
+<span class="c1"># Degree of tranparency, 0 = not transparent, 1 = a bit trasnparent and 2 = very transparent</span>
 <span class="n">transparency</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="c1"># Door is cube</span>
+<span class="c1"># Door is cube, True or False</span>
 <span class="n">is_cube</span> <span class="o">=</span> <span class="kc">True</span>
 
-<span class="c1"># Door is not glass</span>
+<span class="c1"># Door is made of glass, True or False</span>
 <span class="n">glass</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># Door is not translucent</span>
+<span class="c1"># Door is translucent, True or False</span>
 <span class="n">translucent</span> <span class="o">=</span> <span class="kc">False</span>
 
-<span class="c1"># It has no colliders values</span>
+<span class="c1"># It has no colliders values to initialize</span>
 <span class="n">colliders</span> <span class="o">=</span> <span class="p">[]</span>
 
-<span class="c1"># vertices positions initialization, to make doors</span>
+<span class="c1"># vertices positions initialization,  a list of float numbers, to make doors</span>
 <span class="n">vertex_positions</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span> <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">],</span> <span class="c1"># right</span>
 	<span class="p">[</span><span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">],</span> <span class="c1"># left</span>
@@ -122,7 +122,7 @@
 	<span class="p">[</span> <span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">,</span>  <span class="mf">0.5</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">],</span> <span class="c1"># back</span>
 <span class="p">]</span>
 
-<span class="c1"># textures coordinates initialization, where textures drawn pixel by pixel</span>
+<span class="c1"># textures coordinates initialization,  a list of integer numbers, where textures drawn pixel by pixel</span>
 <span class="n">tex_coords</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
 	<span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
@@ -132,7 +132,7 @@
 	<span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">],</span>
 <span class="p">]</span>
 
-<span class="c1"># shading values initialization, the shading intensities</span>
+<span class="c1"># shading values initialization,  a list of float numbers, the shading intensities</span>
 <span class="n">shading_values</span> <span class="o">=</span> <span class="p">[</span>
 	<span class="p">[</span><span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">],</span>
 	<span class="p">[</span><span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">],</span>
