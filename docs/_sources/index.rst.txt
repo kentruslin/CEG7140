@@ -5,12 +5,17 @@
 
 Minecraftclone's software design documentation by kruslin2
 ==========================================
+<<<<<<< HEAD
 | Why, These following modules together with other modules which are tested/documented by other Team members are grouped in a folder as a packet module named "models" and used/imported by another module (world.py) to generate terrain with water and skies with moving clouds and other features based on users issues.
 | 
 | These code programs torch.py, plant.py, ladder.py, lever.py, leaves.py, tinted_glass.py, door.py, fire.py, snow.py, curry.py, number.py and util.py exhibit Literate Programming and also programming by contract because
   the preConditions and the postConditions remain the same as the Invariants in these modules respectivelly satisfied, and all these constant variable initializations will never be changed by another module program (world.py) that uses/imports these modules in the minecraft program.
 | 
 | For a reference, the minecraft program code (Minimum Viable Product) developed using python3 by team member kruslin2, which uses these code modules, can be downloaded from this repository on branch minecraftclone.
+=======
+| These following modules together with all other modules which are tested/documented by other Team members are grouped in a folder as a packet module and used/imported by other bigger modules to form the minecraft program code which will generate terrain with water and skies moving clouds and other features based on users issues.
+| For a reference, the actuall minecraft program code developed using python3 by team member kruslin2, which uses these code modules, can be downloaded from this repository on branch minecraftclone.
+>>>>>>> a61340cda5746cde3918b5a4bb2fb59afb9d39f4
 
 
 

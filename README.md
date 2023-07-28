@@ -1,1 +1,1 @@
-# https://kentruslin.github.io/wsu/
+# https://kentruslin.github.io/CEG7140/
