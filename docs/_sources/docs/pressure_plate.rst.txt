@@ -1,0 +1,7 @@
+pressure\_plate module
+======================
+
+.. automodule:: pressure_plate
+   :members:
+   :undoc-members:
+   :show-inheritance:

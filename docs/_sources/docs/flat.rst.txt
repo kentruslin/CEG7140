@@ -1,0 +1,7 @@
+flat module
+===========
+
+.. automodule:: flat
+   :members:
+   :undoc-members:
+   :show-inheritance:

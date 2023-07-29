@@ -1,0 +1,7 @@
+liquid module
+=============
+
+.. automodule:: liquid
+   :members:
+   :undoc-members:
+   :show-inheritance:

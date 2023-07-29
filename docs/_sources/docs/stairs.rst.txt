@@ -1,0 +1,7 @@
+stairs module
+=============
+
+.. automodule:: stairs
+   :members:
+   :undoc-members:
+   :show-inheritance:

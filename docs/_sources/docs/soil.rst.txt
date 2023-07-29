@@ -1,0 +1,7 @@
+soil module
+===========
+
+.. automodule:: soil
+   :members:
+   :undoc-members:
+   :show-inheritance:

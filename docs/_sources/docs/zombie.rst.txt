@@ -1,0 +1,7 @@
+zombie module
+=============
+
+.. automodule:: zombie
+   :members:
+   :undoc-members:
+   :show-inheritance:

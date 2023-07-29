@@ -1,0 +1,7 @@
+glass module
+============
+
+.. automodule:: glass
+   :members:
+   :undoc-members:
+   :show-inheritance:

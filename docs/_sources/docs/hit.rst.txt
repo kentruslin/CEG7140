@@ -1,0 +1,7 @@
+hit module
+==========
+
+.. automodule:: hit
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -4,17 +4,40 @@ models
 .. toctree::
    :maxdepth: 4
 
+   button
+   cactus
    collider
+   cow
+   creeper
+   crop
+   cube
    curry
    door
    fire
+   flat
+   glass
+   hit
    ladder
    leaves
    lever
+   liquid
    matrix
+   mob
    number
+   pig
    plant
+   player
+   pressure_plate
+   save
+   shader
+   sign
+   skeleton
+   slab
    snow
+   soil
+   stairs
+   texture_manager
    tinted_glass
    torch
    util
+   zombie

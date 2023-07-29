@@ -1,0 +1,7 @@
+pig module
+==========
+
+.. automodule:: pig
+   :members:
+   :undoc-members:
+   :show-inheritance:

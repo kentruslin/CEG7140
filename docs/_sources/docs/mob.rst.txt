@@ -1,0 +1,7 @@
+mob module
+==========
+
+.. automodule:: mob
+   :members:
+   :undoc-members:
+   :show-inheritance:

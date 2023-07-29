@@ -1,0 +1,7 @@
+cow module
+==========
+
+.. automodule:: cow
+   :members:
+   :undoc-members:
+   :show-inheritance:

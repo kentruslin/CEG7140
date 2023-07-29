@@ -1,0 +1,7 @@
+slab module
+===========
+
+.. automodule:: slab
+   :members:
+   :undoc-members:
+   :show-inheritance:
